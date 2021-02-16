@@ -137,6 +137,8 @@ This homework is graded based on the following criteria:
 
 * The walkthrough video must demonstrate a generated HTML file that matches the user input.
 
+You can see a video of the project through this link: https://drive.google.com/file/d/1gffLS_CEnU9fjNONdG9Wtt31rkPzGFFb/view 
+
 
 ### Technical Acceptance Criteria: 40%
 
