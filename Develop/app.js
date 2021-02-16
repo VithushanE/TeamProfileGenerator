@@ -86,7 +86,7 @@ function managerInformation() {
             {
                 type: "input",
                 message: "Please enter your office number here",
-                name: "office number"
+                name: "officeNumber"
 
             }
 
@@ -94,7 +94,7 @@ function managerInformation() {
 
     )
     .then(val => {
-        const manager = new Manager(val.name, val.id, val.email, val.school)
+        const manager = new Manager(val.name, val.id, val.email, val.officeNumber)
         employees.push(manager)
         newMemberType()
     })
@@ -117,7 +117,7 @@ function engineerInformation() {
             },
             {
                 type: "input",
-                message: "Please enter your email address ",
+                message: "Please enter your email address",
                 name: "email"
             },
 
